@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+.home--main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 12%;
+  font-family: "Inter", sans-serif;
+  gap: 50px;
+}
+.home--main p {
+  color: #727e8c;
+  margin: 5px;
+}
+.home--main h1 {
+  font-size: 36px;
+}
+.home--main input {
+  width: 260px;
+  height: 50px;
+  padding: 0px;
+  border: 1px solid #d9d9d9;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.home--login-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.home--container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 544px;
+  height: 370px;
+  gap: 25px;
+  border: 1px solid #d9d9d9;
+  box-shadow: 10px 10px 10px #d9d9d9;
+  text-align: start;
+}
+.home--main button {
+  font-size: 24px;
+  width: 262px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #0d2339;
+  color: #ffc912;
+  font-family: "Inter", sans-serif;
+}
+.home--tittle {
+  color: #727e8c;
+}
+.home--image {
+  max-height: 500px;
+  max-width: 637px;
+}
